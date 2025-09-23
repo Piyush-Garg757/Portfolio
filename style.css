@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f5ed;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+  background-color: #3b855b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 800;
+  border: 2px solid #f9f5ed;
+  height: 33px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+button:hover{
+    background-color: white;
+    border: 3px solid #3b855b;
+    color: black;
+    font-weight: 700;
+    padding: 6px 15px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 900px;
+}
+.header_list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.title {
+  margin-left: 5x;
+}
+li {
+  list-style: none;
+}
+main {
+  padding-top: 150px;
+  display: flex;
+  gap: 310px;
+}
+.intro {
+  font-size: 20;
+  font-weight: 800;
+}
+span {
+  font-weight: 600;
+  background-color: #9a5ad1;
+  color: #fff;
+  border-radius: 2px;
+  font-size: larger;
+}
+.abtme {
+  font-weight: 600;
+  font-size: 17px;
+}
+.rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.rightside img {
+  border-radius: 300px;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
+}
+.rightside img:hover {
+  border-radius: 10px;
+}
+.imgkeneeche {
+  background-color: #9a5ad1;
+  border: 2px solid #f9f5ed;
+  width: 100px;
+  height: 33px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+}
+.imgkeneeche:hover{
+    padding: 10px 10px;
+    width: 120px;
+    height: 40px;
+    border: 3px solid #9a5ad1;
+}
+.footer {
+  background-color: #3b855b;
+  color: #fff;
+  display: flex;
+  gap: 1100px;
+  margin-top: 90px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.footer ul {
+  display: flex;
+  gap: 25px;
+}
+.footer ul li a i{
+    color: black;
+    font-size: 24px;
+}
+.footernote{
+    padding-left: 10px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.main2 i{
+    font-size: 50px;
+    background-color: #fff;
+}
+pre{
+    font-size: 20px;
+    font-weight: 300;
+}
