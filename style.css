@@ -14,7 +14,7 @@ body {
   font-style: normal;
 }
 button {
-  background-color: #3b855b;
+  background-color: #9a5ad1;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -26,7 +26,7 @@ button {
 }
 button:hover{
     background-color: white;
-    border: 3px solid #3b855b;
+    border: 3px solid #9a5ad1;
     color: black;
     font-weight: 700;
     padding: 6px 15px;
@@ -43,7 +43,10 @@ header {
   align-items: center;
 }
 .title {
-  margin-left: 5x;
+  margin-left: 10x;
+  text-decoration: underline;
+  text-decoration-color: #9a5ad1;
+  text-decoration-thickness: 5px;
 }
 li {
   list-style: none;
@@ -97,11 +100,11 @@ span {
     border: 3px solid #9a5ad1;
 }
 .footer {
-  background-color: #3b855b;
+  background-color: #9a5ad1;
   color: #fff;
   display: flex;
   gap: 1100px;
-  margin-top: 90px;
+  margin-top: 30px;
   border-radius: 5px;
   padding: 10px;
 }
@@ -110,8 +113,13 @@ span {
   gap: 25px;
 }
 .footer ul li a i{
-    color: black;
+    color: #fff;
     font-size: 24px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+.footer ul li a i:hover{
+  font-size: 28px;
 }
 .footernote{
     padding-left: 10px;
@@ -120,14 +128,64 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
     padding-top: 10px;
+}
+.mov{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
 }
 .main2 i{
     font-size: 50px;
     background-color: #fff;
 }
+.main2 h2{
+  font-size: 30px;
+}
 pre{
     font-size: 20px;
     font-weight: 300;
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.marquee {
+    display: inline-flex;
+    animation: scroll 20s linear infinite;
+}
+.tech-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9a5ad1;
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-right: 20px;
+    min-width: 120px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.tech-card i {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+.tech-card span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.tech-card:hover {
+    transform: scale(1.1);
+}
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
