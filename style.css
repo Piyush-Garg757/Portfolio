@@ -24,12 +24,12 @@ button {
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
 }
-button:hover{
-    background-color: white;
-    border: 3px solid #9a5ad1;
-    color: black;
-    font-weight: 700;
-    padding: 6px 15px;
+button:hover {
+  background-color: white;
+  border: 3px solid #9a5ad1;
+  color: black;
+  font-weight: 700;
+  padding: 6px 15px;
 }
 header {
   display: flex;
@@ -93,11 +93,11 @@ span {
   transition-duration: 0.3s;
   transition-timing-function: ease-in;
 }
-.imgkeneeche:hover{
-    padding: 10px 10px;
-    width: 120px;
-    height: 40px;
-    border: 3px solid #9a5ad1;
+.imgkeneeche:hover {
+  padding: 10px 10px;
+  width: 120px;
+  height: 40px;
+  border: 3px solid #9a5ad1;
 }
 .footer {
   background-color: #9a5ad1;
@@ -112,80 +112,84 @@ span {
   display: flex;
   gap: 25px;
 }
-.footer ul li a i{
-    color: #fff;
-    font-size: 24px;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
+.footer ul li a i {
+  color: #fff;
+  font-size: 24px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
-.footer ul li a i:hover{
+.footer ul li a i:hover {
   font-size: 28px;
 }
-.footernote{
-    padding-left: 10px;
+.footernote {
+  padding-left: 10px;
 }
-.main2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    padding-top: 10px;
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-top: 10px;
 }
-.mov{
+.mov {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   gap: 20px;
 }
-.main2 i{
-    font-size: 50px;
-    background-color: #fff;
+.main2 i {
+  font-size: 50px;
+  background-color: #fff;
 }
-.main2 h2{
+.main2 h2 {
   font-size: 30px;
 }
-pre{
-    font-size: 20px;
-    font-weight: 300;
+pre {
+  font-size: 20px;
+  font-weight: 300;
 }
 .marquee-container {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 0;
 }
 .marquee {
-    display: inline-flex;
-    animation: scroll 20s linear infinite;
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
 }
 .tech-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #9a5ad1;
-    border-radius: 12px;
-    padding: 15px 25px;
-    margin-right: 20px;
-    min-width: 120px;
-    text-align: center;
-    transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9a5ad1;
+  border-radius: 12px;
+  padding: 15px 25px;
+  margin-right: 20px;
+  min-width: 120px;
+  text-align: center;
+  transition: transform 0.3s;
 }
 .tech-card i {
-    font-size: 2.5rem;
-    color: black;
-    margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 10px;
 }
 .tech-card span {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .tech-card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 @keyframes scroll {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
